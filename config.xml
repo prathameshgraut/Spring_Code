@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean class="Spring_Demo.GreetingDisplay" id="GD">
+		<property name="id" value="101" />
+		<property name="name" value="Nikhil Patil" />
+		<property name="mail" value="np@gmail.com" />
+	</bean>
+	
+	<bean class="Spring_Demo.Student" id="STD">
+		<property name="StdID" value="101" />
+		<property name="Name" value="Nikhil Patil" />
+		<property name="MobNo" value="8767319767" />
+		<property name="Email" value="np@gmail.com" />
+		<property name="Dept" value="BCA" />
+	</bean>
+	
+	<bean class="Spring_Demo.Collage" id="CLG">
+		<property name="ClgName" value="Modern Collage" />
+		<property name="city" value="Pune MH" />
+		<property name="since" value="1996" />
+	</bean>
+
+</beans>
